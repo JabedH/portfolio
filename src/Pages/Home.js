@@ -1,4 +1,5 @@
 import React from "react";
+import AboutMe from "./AboutMe";
 import Display from "./Display";
 import Navbar from "./Navbar";
 
@@ -7,6 +8,7 @@ const Home = () => {
     <div>
       <Navbar />
       <Display />
+      <AboutMe />
     </div>
   );
 };
